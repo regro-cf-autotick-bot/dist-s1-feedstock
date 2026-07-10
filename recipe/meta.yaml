@@ -1,5 +1,5 @@
 {% set name = "dist-s1" %}
-{% set version = "2.0.15" %}
+{% set version = "2.0.16" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/4e/05/0da515b8a8973afaa3d3de0bd7999f8ab9ed48bd2c4eac9825c62a23b194/dist_s1-{{ version }}.tar.gz
-  sha256: 821a2225955546086ab577520bd33c5d60050ac8c1e84bc98686c887d1551177
+  url: https://files.pythonhosted.org/packages/99/fc/8f914cb22772925807dcae4d9bdf4057a6c9bcf502067e30d55442075acd/dist_s1-{{ version }}.tar.gz
+  sha256: f5b76526132e7c7fd5f7549f28a93cd758640f9013d3aaa0f6175f0714e7d2b4
 
 build:
   entry_points:
